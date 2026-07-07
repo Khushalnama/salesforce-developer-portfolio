@@ -1,7 +1,9 @@
-# TODO
-- [ ] Update "Apna Ghar Real Estate CRM" project in `src/constants/projects.js`:
-  - [x] Replace non-Salesforce `tech` tags (React/Node/Express/Mongo/Tailwind) with Salesforce developer tech (LWC, Apex, SOQL, Flows, etc.).
-  - [x] Rewrite `subtitle`, and align `problem`, `solution`, and `features` text to reflect a Salesforce implementation (Sales Cloud + LWC + Apex + Flows).
-- [ ] Verify Projects page renders updated tags/content.
-
+- [ ] Update mobile hamburger navigation to a premium right-side slide-in drawer (320px, fixed, full height)
+- [ ] Add full-screen dark overlay with blur and fade animations (Framer Motion)
+- [ ] Disable body scrolling when drawer is open; restore on close
+- [ ] Improve nav link typography/spacing + hover glow + active background
+- [ ] Ensure clicking a nav link navigates and closes the drawer
+- [ ] Add accessibility: focus trap, ESC key closes, ARIA labels, keyboard navigation
+- [ ] Keep desktop navbar/logo/Hero/routing unchanged
+- [ ] Verify build/lint/tests (npm run ... if available)
 
