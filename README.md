@@ -1,144 +1,165 @@
-# Developer Portfolio — React + Tailwind + Framer Motion
+# 👋 Hi, I'm Khushal Namdev
 
-A premium, futuristic, glassmorphism dark-theme developer portfolio built with:
-- React (latest)
-- Vite
+## Salesforce Developer | Apex | Lightning Web Components | Flow Automation
+
+A passionate Salesforce Developer focused on building scalable CRM solutions using Apex, Lightning Web Components (LWC), Flow Automation, SOQL, and Salesforce Platform.
+
+This repository contains my personal Salesforce Developer Portfolio built using React and Tailwind CSS.
+
+---
+
+## 🌐 Live Portfolio
+
+Coming Soon (Vercel Deployment)
+
+---
+
+## 📸 Portfolio Preview
+
+> Add portfolio screenshots here after deployment.
+
+Example:
+
+/screenshots/home.png
+
+/screenshots/projects.png
+
+/screenshots/contact.png
+
+---
+
+## 🚀 Features
+
+- Modern UI with Glassmorphism
+- Fully Responsive Design
+- Salesforce Focused Portfolio
+- Smooth Animations
+- Contact Form using EmailJS
+- Download Resume
+- GitHub & LinkedIn Integration
+- Professional Project Showcase
+- Clean Component Architecture
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
 - Tailwind CSS
-- React Router
-- Framer Motion
-- React Icons / Lucide Icons
-- EmailJS (contact form)
+- JavaScript
+- Vite
 
-## Features
-- Sticky glass navbar with scroll styling
-- Page transitions + motion-first UI
-- Premium glass cards + glowing buttons
-- Typing effect in hero
-- Animated counters
-- Project cards with tilt hover
-- Scroll progress bar
-- Loading screen
-- Lazy-loaded routes
-- EmailJS contact form with validation + success/error UI
+### Salesforce
 
-## Folder Structure
-```txt
-src/
-  components/
-    animation/
-      PageTransition.jsx
-    effects/
-      LoadingScreen.jsx
-      ScrollProgress.jsx
-      AnimatedBackground.jsx
-      MouseGlow.jsx
-      ScrollReveal.jsx
-      CounterUp.jsx
-      CustomCursor.jsx
-    hero/
-      TypingHero.jsx
-    layout/
-      Navbar.jsx
-      Footer.jsx
-    inputs/
-      TextField.jsx
-      TextAreaField.jsx
-    projects/
-      ProjectCard.jsx
-      SuggestedProjects.jsx
-    skills/
-      SkillCard.jsx
-      SkillProgress.jsx
-    ui/
-      GlassCard.jsx
-      GlowButton.jsx
-      Tag.jsx
-      SectionHeading.jsx
-  constants/
-    site.js
-    skills.js
-    projects.js
-    experience.js
-    education.js
-    certifications.js
-    achievements.js
-    testimonials.js
-  hooks/
-    useInViewReveal.js
-    useScrollSpy.js
-    usePrefersReducedMotion.js
-  pages/
-    Home.jsx
-    About.jsx
-    Skills.jsx
-    Projects.jsx
-    Experience.jsx
-    Education.jsx
-    Certifications.jsx
-    Achievements.jsx
-    Resume.jsx
-    Contact.jsx
-    Testimonials.jsx
-    NotFound.jsx
-  utils/
-    classNames.js
-    scrollToSection.js
-    validators.js
-  styles/
-    globals.css
-  App.jsx
-  main.jsx
+- Apex
+- Lightning Web Components (LWC)
+- SOQL
+- Salesforce Flow
+- Validation Rules
 
-index.html
-package.json
-vite.config.js
-tailwind.config.js
-postcss.config.js
-```
+### Other Tools
+
+- Git
+- GitHub
+- EmailJS
+- VS Code
+
+---
+
+# Featured Salesforce Projects
+
+## Complaint Management System
+
+A Salesforce CRM application designed to automate complaint registration, status tracking, and resolution workflows using Apex, LWC, and Flow Automation.
+
+### Technologies
+
+- Apex
+- LWC
+- SOQL
+- Flow
+- Validation Rules
+
+---
+
+## Apna Ghar Real Estate CRM
+
+A custom Salesforce CRM solution for managing property listings, customer records, and lead management with automation.
+
+### Technologies
+
+- Apex
+- LWC
+- SOQL
+- Flow
+- Custom Objects
+
+---
 
 ## Installation
+
+Clone Repository
+
+```bash
+git clone https://github.com/Khushalnama/salesforce-developer-portfolio.git
+```
+
+Install Packages
+
 ```bash
 npm install
-npm run dev
 ```
 
-## Build
-```bash
-npm run build
-npm run preview
-```
+Run Project
 
-## EmailJS Configuration
-This project expects EmailJS template identifiers via Vite environment variables.
-
-Create a `.env` file in the project root:
-```bash
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
-Then run:
 ```bash
 npm run dev
 ```
 
-## Resume Download
-The app links to:
-- `/resume.pdf`
+---
 
-A minimal `public/resume.pdf` file is included in this project. Replace it with your real resume by overwriting `public/resume.pdf`.
+## Folder Structure
 
-## Deployment (Vercel / Netlify)
-1. Build the project: `npm run build`
-2. Deploy the generated `dist/` folder.
+```
+src/
+components/
+pages/
+hooks/
+styles/
+constants/
+public/
+```
 
-If you use React Router on static hosts, ensure the host is configured to fallback `index.html` for unknown routes.
+---
 
-## Accessibility & Reduced Motion
-The UI respects `prefers-reduced-motion` for scrolling behavior.
+## Contact
 
-## Notes
-- All links in `src/constants` and social URLs are currently set to `#` placeholders. Replace them with your real URLs.
-- Project/live/demo URLs are currently `#` placeholders.
+Email
 
+khushalnamdev325@gmail.com
+
+LinkedIn
+
+(Add your LinkedIn URL)
+
+GitHub
+
+https://github.com/Khushalnama
+
+---
+
+## Future Improvements
+
+- Add Salesforce Certifications
+- Add More CRM Projects
+- Deploy with Custom Domain
+- Add Project Case Studies
+- Improve Accessibility
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a Star ⭐
